@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151B29;
+}
+
+
+
+button {
+    border: solid;
+    border-color: #ffa260;
+    color: #ffa260;
+    background:none;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: 0.5s;
+
+}
+
+
+button:hover {
+   transform: translate(0px,-5px);
+   box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
+   ;
+
+}
